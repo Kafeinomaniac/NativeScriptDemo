@@ -1,0 +1,75 @@
+[
+  {
+    "artist": "Basshunter",
+    "title": "Boten Anna",
+    "year": 2006,
+    "locale": "sv-SE",
+    "image": "basshunter.jpg",
+    "lyric": "Hon röjer upp I våran kanal.\nJag vill berätta för dig att jag känner en bot.",
+    "file": "basshunter.mp3"
+  },
+  {
+    "artist": "Avicii",
+    "title": "Wake Me Up",
+    "year": 2013,
+    "locale": "en-US",
+    "image": "avicii.jpg",
+    "lyric": "Life's a game made for everyone. And love is a prize.",
+    "file": "avicii.mp3"
+  },
+  {
+    "artist": "ABBA",
+    "title": "Dancing Queen",
+    "year": 1976,
+    "locale": "en-US",
+    "image": "abba.jpg",
+    "lyric":
+      "You're a teaser, you turn 'em on. Leave them burning and then you're gone. Looking out for another, anyone will do. You're in the mood for a dance.",
+    "file": "abba.mp3"
+  },
+  {
+    "artist": "Ace of Base",
+    "title": "All That She Wants",
+    "year": 1993,
+    "locale": "en-US",
+    "image": "ace-of-base.jpg",
+    "lyric": "It's not a day for work. It's a day for catching tan. Just laying on the beach and having fun.",
+    "file": "ace-of-base.mp3"
+  },
+  {
+    "artist": "Roxette",
+    "title": "The Look",
+    "year": 1988,
+    "locale": "en-US",
+    "image": "roxette.jpg",
+    "lyric": "Walking like a man. Hitting like a hammer. She's a juvenile scam. Never was a quitter.",
+    "file": "roxette.mp3"
+  },
+  {
+    "artist": "Icona Pop",
+    "title": "I Love It",
+    "year": 2012,
+    "locale": "en-US",
+    "image": "icona-pop.jpg",
+    "lyric": "I threw you shit into a bag and pushed it down the stairs. I crashed my car into the bridge. I don't care!",
+    "file": "icona-pop.mp3"
+  },
+  {
+    "artist": "Zara Larsson",
+    "title": "Never Forget You",
+    "year": 2017,
+    "locale": "en-US",
+    "image": "zara-larsson.jpg",
+    "lyric": "But sometimes you just gotta know that these things fall through. I can't hide my connection with you.",
+    "file": "zara-larsson.mp3"
+  },
+  {
+    "artist": "Europe",
+    "title": "The Final Countdown",
+    "year": 1986,
+    "locale": "en-US",
+    "image": "europe.jpg",
+    "lyric": "I guess there is no one to blame. We're leaving ground (leaving ground). Will things ever be the same again?",
+    "file": "europe.mp3"
+  }
+]

@@ -1,28 +1,34 @@
-// Angular
-import { Component, ElementRef, ViewChild } from "@angular/core";
+import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
 
-// Plugins
+import { SideDrawerComponent } from "../sidedrawer/sidedrawer.component";
+
 import { registerElement } from "nativescript-angular/element-registry";
 registerElement("VideoPlayer", () => require("nativescript-videoplayer").Video);
-
-// Shared
-import { MenuComponent } from "../../shared/menu/menu.component";
+// https://docs.nativescript.org/angular/plugins/angular-third-party.html#simple-elements
 
 @Component({
   moduleId: module.id,
-  selector: "video",
+  selector: "Video",
   templateUrl: "video.component.html"
 })
-export class VideoComponent {
+export class VideoComponent implements OnInit {
   @ViewChild("videoplayer") VideoPlayer: ElementRef;
+  isVideoVisible: boolean = false;
 
-  public constructor(private menuComponent: MenuComponent) {}
+  constructor(private _sidedrawerComponent: SideDrawerComponent) {}
 
-  toggleDrawer(): void {
-    this.menuComponent.toggleMenu();
+  toggleDrawer() {
+    this._sidedrawerComponent.toggleDrawer();
   }
 
-  playVideo(): void {
+  ngOnInit() {}
+
+  playVideo() {
+    this.isVideoVisible = true;
     this.VideoPlayer.nativeElement.play();
+  }
+
+  videoFinished() {
+    alert("Video finished!");
   }
 }

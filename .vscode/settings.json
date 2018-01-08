@@ -5,8 +5,12 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/.DS_Store": true,
-    "app/**/*.js": { "when": "$(basename).ts" },
-    "app/**/*.js.map": true
+    "**/*.css": true,
+    "app/**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "app/**/*.js.map": true,
+    "**/timebox.js": false,
   },
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,

@@ -1,3 +1,4 @@
+.DS_Store
 *.log
 **/*.js
 *.js.map
@@ -9,6 +10,4 @@ report
 platforms/android
 platforms/ios
 app/tns_modules
-app/App_Resources/iOS/MijnInkomenVoorLater.entitlements
-!app/shared/calcbox/taffy.js
 !webpack.config.js
